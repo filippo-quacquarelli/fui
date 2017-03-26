@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="fui-font.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="fui.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="fui-theme.css" media="screen" charset="utf-8">
+    </head>
+    
+    <body>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <h1>fui - Form User Interface</h1>
+
+            <p>
+              Purtroppo i form vengono stilizzati in maniera sempre diversa, a seconda del browser utilizzato, questo a volte può rappresentare un problema, è qui che entra in gioco fui.
+
+              Fui è un microframework per form responsive, di base ti aiuta a mantenere lo stile dei tuoi form sempre coerente e un sistema di colonne per i tuoi campi, inoltre in aggiunta include anche qualche bel componente pronto all'uso.
+            </p>
+
+            <h2>Esempio: form d'acquisto</h2>
+
+            <fieldset>
+              <legend>Title</legend>
+
+              <label for="title_1">
+                <input type="radio" id="title_1" name="title" value="M." >
+                Mister
+              </label>
+
+              <label for="title_2">
+                <input type="radio" id="title_2" name="title" value="Ms.">
+                Miss
+              </label>
+            </fieldset>
+
+            <div class="fui-container">
+              <div class="fui-col-3">
+                <label for="name">
+                  <span>Name: </span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="name" name="username">
+              </div>
+              <div class="fui-col-3">
+                <label for="mail">
+                  <span>E-mail: </span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="email" id="mail" name="usermail">
+              </div>
+              <div class="fui-col-3 fui-col-last">
+                <label for="pwd">
+                  <span>Password: </span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="password" id="pwd" name="password">
+              </div>
+            </div>
+
+            <h3>Payment information</h3>
+
+            <div class="fui-container">
+              <div class="fui-col-3">
+                <label for="card">
+                  <span>Card type:</span>
+                </label>
+                <select id="card" name="usercard">
+                  <option value="visa">Visa</option>
+                  <option value="mc">Mastercard</option>
+                  <option value="amex">American Express</option>
+                </select>
+              </div>
+              <div class="fui-col-3">
+                <label for="number">
+                  <span>Card number:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                  <input type="text" id="number" name="cardnumber">
+              </div>
+              <div class="fui-col-3 fui-col-last">
+                <label for="date">
+                  <span>Expiration date:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                  <em>formatted as mm/yy</em>
+                </label>
+                <input type="text" id="date" name="expiration">
+              </div>
+            </div>
+
+            <p> <button type="submit">Validate the payment</button> </p>
+
+            <h2>Esempio: componenti pronti all'uso</h2>
+
+            <p> <button type="submit" class="fui-button-primary">Validate the payment</button> </p>
+
+            <div class="fui-check">
+              <input type="checkbox" id="checkbox-1" value="" checked="">
+              <label for="checkbox-1">Checkbox</label>
+
+              <input type="checkbox" id="checkbox-3" value="" disabled="">
+              <label for="checkbox-3">Checkbox disable</label>
+
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              <label for="optionsRadios1">Option 1</label>
+
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              <label for="optionsRadios2">Option 2</label>
+
+              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+              <label for="optionsRadios3">Option 3 disable</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>

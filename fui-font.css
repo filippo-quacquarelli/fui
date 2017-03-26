@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "font-form";
+  src:url("fonts/font-form.eot");
+  src:url("fonts/font-form.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-form.woff") format("woff"),
+    url("fonts/font-form.ttf") format("truetype"),
+    url("fonts/font-form.svg#font-form") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "font-form" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fui-font-"]:before,
+[class*=" fui-font-"]:before {
+  font-family: "font-form" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fui-font-angle-down:before {
+  content: "\65";
+}
+.fui-font-angle-left:before {
+  content: "\66";
+}
+.fui-font-angle-right:before {
+  content: "\67";
+}
+.fui-font-angle-up:before {
+  content: "\68";
+}
+.fui-font-asterisk:before {
+  content: "\69";
+}
+.fui-font-at:before {
+  content: "\6a";
+}
+.fui-font-calendar:before {
+  content: "\6e";
+}
+.fui-font-calendar-check-o:before {
+  content: "\6f";
+}
+.fui-font-calendar-minus-o:before {
+  content: "\70";
+}
+.fui-font-calendar-o:before {
+  content: "\71";
+}
+.fui-font-calendar-plus-o:before {
+  content: "\72";
+}
+.fui-font-calendar-times-o:before {
+  content: "\73";
+}
+.fui-font-caret-down:before {
+  content: "\75";
+}
+.fui-font-caret-left:before {
+  content: "\76";
+}
+.fui-font-caret-right:before {
+  content: "\77";
+}
+.fui-font-caret-up:before {
+  content: "\78";
+}
+.fui-font-check:before {
+  content: "\4a";
+}
+.fui-font-check-circle:before {
+  content: "\4b";
+}
+.fui-font-check-circle-o:before {
+  content: "\4c";
+}
+.fui-font-check-square:before {
+  content: "\4d";
+}
+.fui-font-check-square-o:before {
+  content: "\4e";
+}
+.fui-font-cog:before {
+  content: "\30";
+}
+.fui-font-cogs:before {
+  content: "\31";
+}
+.fui-font-credit-card:before {
+  content: "\39";
+}
+.fui-font-envelope-square:before {
+  content: "\22";
+}
+.fui-font-envelope-o:before {
+  content: "\23";
+}
+.fui-font-envelope:before {
+  content: "\24";
+}
+.fui-font-eur:before {
+  content: "\6b";
+}
+.fui-font-exclamation-circle:before {
+  content: "\6c";
+}
+.fui-font-exclamation-triangle:before {
+  content: "\74";
+}
+.fui-font-linux:before {
+  content: "\79";
+}
+.fui-font-paper-plane:before {
+  content: "\7a";
+}
+.fui-font-paper-plane-o:before {
+  content: "\41";
+}
+.fui-font-paperclip:before {
+  content: "\42";
+}
+.fui-font-pencil:before {
+  content: "\43";
+}
+.fui-font-pencil-square:before {
+  content: "\44";
+}
+.fui-font-pencil-square-o:before {
+  content: "\45";
+}
+.fui-font-phone:before {
+  content: "\46";
+}
+.fui-font-phone-square:before {
+  content: "\47";
+}
+.fui-font-picture-o:before {
+  content: "\48";
+}
+.fui-font-plus:before {
+  content: "\49";
+}
+.fui-font-plus-circle:before {
+  content: "\4f";
+}
+.fui-font-plus-square:before {
+  content: "\50";
+}
+.fui-font-plus-square-o:before {
+  content: "\51";
+}
+.fui-font-refresh:before {
+  content: "\52";
+}
+.fui-font-repeat:before {
+  content: "\53";
+}
+.fui-font-star-o:before {
+  content: "\54";
+}
+.fui-font-star-half-o:before {
+  content: "\55";
+}
+.fui-font-star-half:before {
+  content: "\56";
+}
+.fui-font-star:before {
+  content: "\57";
+}
+.fui-font-thumbs-down:before {
+  content: "\58";
+}
+.fui-font-thumbs-o-down:before {
+  content: "\59";
+}
+.fui-font-thumbs-o-up:before {
+  content: "\5a";
+}
+.fui-font-thumbs-up:before {
+  content: "\32";
+}
+.fui-font-times:before {
+  content: "\33";
+}
+.fui-font-times-circle:before {
+  content: "\34";
+}
+.fui-font-times-circle-o:before {
+  content: "\35";
+}
+.fui-font-trash-o:before {
+  content: "\36";
+}
+.fui-font-trash:before {
+  content: "\37";
+}
+.fui-font-user:before {
+  content: "\38";
+}
+.fui-font-user-plus:before {
+  content: "\21";
+}
+.fui-font-user-secret:before {
+  content: "\25";
+}
+.fui-font-user-times:before {
+  content: "\26";
+}
+.fui-font-users:before {
+  content: "\27";
+}
+.fui-font-minus-square-o:before {
+  content: "\28";
+}
+.fui-font-minus-square:before {
+  content: "\29";
+}
+.fui-font-minus-circle:before {
+  content: "\2a";
+}
+.fui-font-minus:before {
+  content: "\2b";
+}

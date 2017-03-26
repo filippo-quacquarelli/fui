@@ -1,0 +1,296 @@
+
+/* Config ----------------------------- */
+
+:root {
+
+  /* Font */
+  --fui-font-color: rgb(40, 40, 40);
+
+  /* Borders */
+  --fui-border-radius: 3px;
+  --fui-border-width: 1px;
+  --fui-border-style: solid;
+  --fui-border-color: rgb(200, 200, 200);
+
+  /* Inputs, Textareas, Select, Option */
+  --fui-input-height: 40px;
+  --fui-input-width: 100%;
+  --fui-input-bg-color: #fff;
+  --fui-focus-bg-color: #fff;
+  --fui-focus-border-color: #0074D9;
+  --fui-focus-font-color: var(--fui-font-color);
+
+  /* Select Vendor Styling */
+  --fui-select-vendor-styling: none; /* comment this out to maintain vendor styling */
+
+  /* Buttons & Input Submits */
+  --fui-button-height: 40px;
+  --fui-button-font-color: var(--fui-font-color);
+  --fui-button-bg-color: var(--fui-input-bg-color);
+  --fui-button-hover-bg-color: var(--fui-input-bg-color);
+  --fui-button-hover-font-color: var(--fui-font-color);
+  --fui-button-hover-border-color: #666;
+
+  /* Layout */
+  --fui-layout-display: block;
+  --fui-layout-margin: 10px 0; /* change to "10px auto" to center */
+  --fui-layout-text-align: left;
+}
+
+/* Global Reset Styles ------------------ */
+
+input,
+textarea,
+select,
+option,
+optgroup,
+button,
+legend,
+fieldset {
+  box-sizing: border-box;
+  outline: none;
+  color: var(--fui-font-color);
+  vertical-align: top;
+  display: var(--fui-layout-display);
+  margin: var(--fui-layout-margin);
+  text-align: var(--fui-layout-text-align);
+}
+
+label {
+  display: var(--fui-layout-display);
+  margin: var(--fui-layout-margin);
+  text-align: var(--fui-layout-text-align);
+  cursor: pointer;
+}
+
+/* Input & Textarea ------------------ */
+
+/* Fields with standard width */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="number"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input[list],
+input[type="file"],
+select,
+textarea {
+  width: var(--fui-input-width);
+  padding: calc( var(--fui-input-height) / 5 );
+  background-color: var(--fui-input-bg-color);
+  border-radius: var(--fui-border-radius);
+  border-width: var(--fui-border-width);
+  border-style: var(--fui-border-style);
+  border-color: var(--fui-border-color);
+}
+
+/* Fields with standard height */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="number"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input[list] {
+  height: var(--fui-input-height);
+  -webkit-appearance: none;
+}
+
+/* Other */
+
+textarea {
+  -webkit-appearance: none;
+  overflow: auto;
+}
+
+input[type="range"] {
+  height: var(--fui-input-height);
+  width: var(--fui-input-width);
+}
+
+input[type="file"] {
+  min-height: var(--fui-input-height);
+}
+
+input[type="search"] {
+  height: var(--fui-input-height);
+  -webkit-appearance: none;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Select ------------------ */
+
+select {
+  height: var(--fui-input-height);
+  -webkit-appearance: var(--fui-select-vendor-styling, menulist);
+  -moz-appearance: var(--fui-select-vendor-styling, menulist);
+  -ms-appearance: var(--fui-select-vendor-styling, menulist);
+  -o-appearance: var(--fui-select-vendor-styling, menulist);
+}
+
+select::-ms-expand{
+	display: none;
+}
+
+select[multiple] {
+  height: auto;
+  min-height: var(--fui-input-height);
+  padding: 0;
+}
+
+select[multiple] option {
+  margin: 0;
+  padding: calc( var(--fui-input-height) / 5 );
+}
+
+/* Fieldset ------------------ */
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  padding: 0;
+  font-weight: inherit;
+}
+
+/* Buttons, Input Type Submit/Reset ------------------ */
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="image"] {
+  height: var(--fui-button-height);
+  display: inline-block;
+  background-color: var(--fui-button-bg-color);
+  padding: calc( var(--fui-input-height) / 5 );
+  cursor: pointer;
+  color: var(--fui-button-font-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: var(--fui-border-radius);
+  border-width: var(--fui-border-width);
+  border-style: var(--fui-border-style);
+  border-color: var(--fui-border-color);
+}
+
+input[type="image"] {
+  text-align: center;
+  padding: calc( var(--fui-input-height) / 5 );
+}
+
+/* States ------------------ */
+
+input[disabled],
+textarea[disabled],
+select[disabled],
+option[disabled],
+button[disabled] {
+  cursor: not-allowed;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  border-color: var(--fui-button-hover-border-color);
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+option:focus,
+button:focus  {
+  background-color: var(--fui-focus-bg-color);
+  border-color: var(--fui-focus-border-color);
+}
+
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+  outline: var(--fui-focus-border-color) solid 2px;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+  background-color: var(--fui-button-hover-bg-color);
+  color: var(--fui-button-hover-font-color);
+}
+
+/* Grid system - simple grid system - 6 colums */
+
+.fui-container:before, .fui-container:after {
+  content: ' ';
+  display: table;
+}
+
+.fui-container:after {
+  clear: both;
+}
+
+[class*="fui-col-"] {
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+	[class*="fui-col-"] {
+		float: left;
+		margin-right: 2%;
+	}
+
+	.fui-col-2 {
+		width: 49%;
+	}
+
+	.fui-col-3 {
+		width: 32%;
+	}
+
+	.fui-col-4 {
+		width: 23.5%;
+	}
+
+	.fui-col-5 {
+		width: 18.4%;
+	}
+
+	.fui-col-6 {
+		width: 15%;
+	}
+
+  .fui-col-last {
+		margin-right: 0;
+	}
+}

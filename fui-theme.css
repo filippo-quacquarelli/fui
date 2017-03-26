@@ -1,0 +1,90 @@
+
+select,
+select:focus {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiICAgdmVyc2lvbj0iMS4xIiAgIGlkPSJDYXBhXzEiICAgeD0iMHB4IiAgIHk9IjBweCIgICB3aWR0aD0iNDA0LjMwOHB4IiAgIGhlaWdodD0iNDA0LjMwOXB4IiAgIHZpZXdCb3g9IjAgMCA0MDQuMzA4IDQwNC4zMDkiICAgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDA0LjMwOCA0MDQuMzA5OyIgICB4bWw6c3BhY2U9InByZXNlcnZlIiAgIGlua3NjYXBlOnZlcnNpb249IjAuNDguNSByMTAwNDAiICAgc29kaXBvZGk6ZG9jbmFtZT0iYXJyb3ctcG9pbnQtdG8tZG93bi5zdmciPjxtZXRhZGF0YSAgICAgaWQ9Im1ldGFkYXRhNDEiPjxyZGY6UkRGPjxjYzpXb3JrICAgICAgICAgcmRmOmFib3V0PSIiPjxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PjxkYzp0eXBlICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPjxkYzp0aXRsZT48L2RjOnRpdGxlPjwvY2M6V29yaz48L3JkZjpSREY+PC9tZXRhZGF0YT48ZGVmcyAgICAgaWQ9ImRlZnMzOSIgLz48c29kaXBvZGk6bmFtZWR2aWV3ICAgICBwYWdlY29sb3I9IiNmZmZmZmYiICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIgICAgIGJvcmRlcm9wYWNpdHk9IjEiICAgICBvYmplY3R0b2xlcmFuY2U9IjEwIiAgICAgZ3JpZHRvbGVyYW5jZT0iMTAiICAgICBndWlkZXRvbGVyYW5jZT0iMTAiICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMCIgICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjgxOCIgICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjQ4MCIgICAgIGlkPSJuYW1lZHZpZXczNyIgICAgIHNob3dncmlkPSJmYWxzZSIgICAgIGlua3NjYXBlOnpvb209IjAuNTgzNzExOTgiICAgICBpbmtzY2FwZTpjeD0iMjAyLjE1NDAxIiAgICAgaW5rc2NhcGU6Y3k9IjIwMi4xNTQ1IiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiICAgICBpbmtzY2FwZTp3aW5kb3cteT0iMjciICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIwIiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0iQ2FwYV8xIiAvPjxnICAgICBpZD0iZzMiICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eTowLjMxMzcyNTUiPjxwYXRoICAgICAgIGQ9Ik0wLDEwMS4wOGg0MDQuMzA4TDIwMi4xNTEsMzAzLjIyOUwwLDEwMS4wOHoiICAgICAgIGlkPSJwYXRoNSIgICAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MC4zMTM3MjU1IiAvPjwvZz48ZyAgICAgaWQ9Imc3IiAvPjxnICAgICBpZD0iZzkiIC8+PGcgICAgIGlkPSJnMTEiIC8+PGcgICAgIGlkPSJnMTMiIC8+PGcgICAgIGlkPSJnMTUiIC8+PGcgICAgIGlkPSJnMTciIC8+PGcgICAgIGlkPSJnMTkiIC8+PGcgICAgIGlkPSJnMjEiIC8+PGcgICAgIGlkPSJnMjMiIC8+PGcgICAgIGlkPSJnMjUiIC8+PGcgICAgIGlkPSJnMjciIC8+PGcgICAgIGlkPSJnMjkiIC8+PGcgICAgIGlkPSJnMzEiIC8+PGcgICAgIGlkPSJnMzMiIC8+PGcgICAgIGlkPSJnMzUiIC8+PC9zdmc+);
+	background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 16px;
+}
+
+.fui-button-primary {
+	background-color: #2979FF;
+	color: rgba(255, 255, 255, 0.84);
+  border: 1px solid #0D47A1;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+  transition: background-color 0.2s linear;
+}
+
+.fui-button-primary:hover,
+.fui-button-primary:focus,
+.fui-button-primary:active {
+	background-color: #0D47A1;
+	color: rgba(255, 255, 255, 0.84);
+  border-color: #0D47A1;
+}
+
+.fui-check label {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.fui-check input[type="radio"],
+.fui-check input[type="checkbox"] {
+    display: none;
+}
+
+.fui-check label:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border: 1px solid #9E9E9E;
+    border-radius: 2px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.fui-check label:hover:before {
+	border-color: #2979FF;
+}
+
+.fui-check input[type="radio"] + label:before {
+    border-radius: 50%;
+}
+
+.fui-check input[type="checkbox"]:checked + label:before,
+.fui-check input[type="radio"]:checked + label:before {
+  font-family: "font-form";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	color: #fff;
+  color: rgba(255,255,255,0.84);
+  text-align: center;
+  background-color: #2979FF;
+  border: transparent;
+}
+
+.fui-check input[type="checkbox"]:checked + label:before,
+.fui-check input[type="radio"]:checked + label:before {
+	content: "\4a";
+}
+
+.fui-check input[type="checkbox"]:disabled + label:before,
+.fui-check input[type="radio"]:disabled + label:before,
+.fui-check input[type="checkbox"]:disabled + label:hover:before
+.fui-check input[type="radio"]:disabled + label:hover:before {
+	background-color: #E0E0E0;
+	border-color: #9E9E9E;
+}
